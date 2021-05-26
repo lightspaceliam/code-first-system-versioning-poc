@@ -1,4 +1,4 @@
-# Code First & System Versioned Temporal Tables
+# .NET Core Migrations - Code First & System Versioned Temporal Tables
 
 Whilst currently not natively supported, implementing native SQL system versioning can be accomplished with Code First Migrations. To demonstrate this concept, I have created a Person entity and migrations. The two migrations demonstrate that system versioned temporal tables will reflect changes applied to their concrete tables as the schama is modified over time. 
 
