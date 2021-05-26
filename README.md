@@ -30,7 +30,6 @@ Notice how History.People automatically populates after the initial inserted rec
 | No code required to handle updates to data | Entity Framework knows nothing of the system-versioning temporary tables
 | There will always be accurate version data | The database will continuously persist changes, adding size to the database
 | As migrations modify the schema, changes are also reflected in the system-versioning temporary tables | Historical data resides on the database. You cannot mitigate storage to a more cost effective alternative
-| As migrations modify the schema, changes are also reflected in the system-versioning temporary tables | 
 
 ## Installation 
 This example requires:
